@@ -1,0 +1,7 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using WebApplication1.Models
+@model Сurrencies
+    <h1>Цена на @Model.Name.ToLower()</h1>
+@Model.Currency.Value
